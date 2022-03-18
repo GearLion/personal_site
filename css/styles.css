@@ -1,8 +1,44 @@
+/* Selector Styles */
+body {
+    background-color: #FFD880;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    text-align: center;
+}
+
+/* Class Styles */
 .header {
     height: 150px;
 }
 
+.lions {
+    height: 32px;
+    width: 24px;
+    position: absolute;
+}
+
+/* ID Styles */
 #profile_photo {
-    height: 100px;
-    width: 100px;
+        height: 100px;
+        width: 100px;
+        position: absolute;
+        top: 2px;
+        left: 2px;
+}
+
+#left_lion {
+    top: 180px;
+    left: 650px;
+}
+
+#right_lion {
+    top: 250px;
+    right: 650px;
+}
+
+#door_image {
+    width: 90%;
+    height: 90%;
+    margin-top: 40px;
 }
