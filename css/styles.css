@@ -5,17 +5,22 @@ body {
     margin-right: 0px;
     margin-left: 0px;
     text-align: center;
+    color: #6B011F;
+}
+
+h1 {
+    font-family: 'Yellowtail', cursive;
+}
+
+h2 {
+    font-family: 'Niconne', cursive;
 }
 
 /* Class Styles */
-.header {
-    height: 150px;
-}
-
 .lions {
-    height: 32px;
-    width: 24px;
-    position: absolute;
+    height: 67px;
+    width: 47px;
+    position: relative;
 }
 
 /* ID Styles */
@@ -23,22 +28,34 @@ body {
         height: 100px;
         width: 100px;
         position: absolute;
-        top: 2px;
+        top: 5px;
         left: 2px;
 }
 
 #left_lion {
-    top: 180px;
-    left: 650px;
+    bottom: 90px;
+    right: 125px;
 }
 
 #right_lion {
-    top: 250px;
-    right: 650px;
+    bottom: 90px;
+    left: 125px;
 }
 
 #door_image {
     width: 90%;
     height: 90%;
     margin-top: 40px;
+}
+
+#header {
+    height: 110px;
+    width: 5000px;
+    background-color: #290149;
+    position: fixed;
+    z-index: 1;
+}
+
+#introduction {
+    padding-top: 130px;
 }
