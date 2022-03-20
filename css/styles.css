@@ -6,14 +6,25 @@ body {
     margin-left: 0px;
     text-align: center;
     color: #6B011F;
+    font-family: 'Playfair Display', serif;
+
 }
 
 h1 {
     font-family: 'Yellowtail', cursive;
+    font-size: 4.275em;
+    margin: 100px auto 0px auto;
 }
 
 h2 {
     font-family: 'Niconne', cursive;
+    font-size: 2em;
+    font-weight: normal;
+}
+
+hr {
+    border: 2px #290149;
+    border-style: solid none none;
 }
 
 /* Class Styles */
@@ -45,7 +56,10 @@ h2 {
 #door_image {
     width: 90%;
     height: 90%;
-    margin-top: 40px;
+    border: 20px solid #6B011F;
+    border-style: inset;
+    padding: 10px;
+    background: white;
 }
 
 #header {
@@ -56,6 +70,11 @@ h2 {
     z-index: 1;
 }
 
-#introduction {
+#introduction_container {
     padding-top: 130px;
+}
+
+#long_profile {
+    height: 20%;
+    width: 20%;
 }
