@@ -19,7 +19,6 @@ h1 {
 h2 {
     font-family: 'Niconne', cursive;
     font-size: 2em;
-    font-weight: normal;
 }
 
 hr {
@@ -27,11 +26,37 @@ hr {
     border-style: solid none none;
 }
 
+p {
+    line-height: 1em;
+}
+
 /* Class Styles */
 .lions {
     height: 67px;
     width: 47px;
     position: relative;
+}
+
+.subheading {
+    font-weight: normal;
+    margin-bottom: 0px;
+}
+
+.mahler_quotation:hover + .mahler_translation {
+    display: block;
+    position: absolute;
+}
+
+.mahler_translation {
+    text-align: center;
+    margin-left: 500px;
+    width: 400px;
+    color: #F14668;
+    background-color: #290149;
+    padding: 10px;
+    font-family: 'Niconne', cursive;
+    font-size: 1.5em;
+    display: none;
 }
 
 /* ID Styles */
@@ -54,8 +79,8 @@ hr {
 }
 
 #door_image {
-    width: 90%;
-    height: 90%;
+    width: 50%;
+    height: 50%;
     border: 20px solid #6B011F;
     border-style: inset;
     padding: 10px;
@@ -77,4 +102,8 @@ hr {
 #long_profile {
     height: 20%;
     width: 20%;
+}
+
+#lion_and_snake {
+    padding-bottom: 70px;
 }
