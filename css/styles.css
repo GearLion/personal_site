@@ -24,11 +24,19 @@ h2 {
 hr {
     border: 2px #290149;
     border-style: solid none none;
+    margin: 30px auto;
 }
 
 p {
-    line-height: 1em;
+    line-height: 1.25em;
+    width: 70%;
+    padding-left: 15%;
 }
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: underline; }
+a:active { text-decoration: none; }
 
 /* Class Styles */
 .lions {
@@ -50,9 +58,9 @@ p {
 
 .mahler_translation {
     text-align: center;
-    margin-left: 500px;
-    width: 400px;
-    color: #F14668;
+    margin-left: 300px;
+    width: 500px;
+    color: #FFD880;
     background-color: #290149;
     padding: 10px;
     font-family: 'Niconne', cursive;
@@ -60,14 +68,88 @@ p {
     display: none;
 }
 
-/* ID Styles */
-#profile_photo {
+.bottom-container {
+    background-color: #290149;
+    color: #FFD880;
+}
+
+.copyright {
+    text-align: end;
+    font-size: 0.8em;
+    width: 80%;
+}
+
+.footer-link {
+    color: #F14668;
+}
+
+.introduction_container {
+    padding-top: 130px;
+    position: relative;
+}
+
+.header {
+    height: 110px;
+    width: 100%;
+    background-color: #290149;
+    position: fixed;
+    z-index: 1;
+    top: 0px;
+    float: left;
+}
+
+.profile_photo {
         height: 100px;
         width: 100px;
         position: absolute;
         top: 5px;
         left: 2px;
 }
+
+.story_summary {
+    text-align: left;
+    line-height; 1.5em;
+}
+
+.external {
+    target: _blank;
+}
+
+
+.header a {
+    color: #FFD880;
+    float: right;
+    display: block;
+    padding: 50px 30px;
+}
+
+.btn {
+  background: #FFD880;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 32px;
+  font-family: 'Yellowtail', cursive;
+  color: #FFD880;
+  font-size: 18px;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+/* ID Styles */
 
 #left_lion {
     bottom: 90px;
@@ -85,19 +167,7 @@ p {
     border: 20px solid #6B011F;
     border-style: inset;
     padding: 10px;
-    background: #fffbee;
-}
-
-#header {
-    height: 110px;
-    width: 5000px;
-    background-color: #290149;
-    position: fixed;
-    z-index: 1;
-}
-
-#introduction_container {
-    padding-top: 130px;
+    background: #f1f0d6;
 }
 
 #long_profile {
@@ -107,7 +177,7 @@ p {
 }
 
 #lion_and_snake {
-    padding-bottom: 70px;
+    margin-bottom: 30px;
 }
 
 #gear_lion {
